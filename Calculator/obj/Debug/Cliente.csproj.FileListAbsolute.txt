@@ -1,0 +1,8 @@
+c:\users\elope_evicertia\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.exe.config
+c:\users\elope_evicertia\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.exe
+c:\users\elope_evicertia\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
+c:\users\elope_evicertia\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Cliente.csprojResolveAssemblyReference.cache
+c:\users\elope_evicertia\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
+c:\users\elope_evicertia\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\elope_evicertia\Documents\Visual Studio 2015\Projects\Calculator\Calculator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\elope_evicertia\Documents\Visual Studio 2015\Projects\Calculator\Calculator\bin\Debug\Newtonsoft.Json.xml
