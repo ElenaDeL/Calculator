@@ -8,6 +8,6 @@ namespace CalculatorService.Server.Models
 	public class SubResponse
 	{
 		
-		public int Diference { get; set;}
+		public int Difference { get; set;}
 	}
 }

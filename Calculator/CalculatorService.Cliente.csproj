@@ -37,12 +37,21 @@
       <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.7.5\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="RestSharp, Version=106.11.7.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
       <HintPath>..\packages\RestSharp.106.11.7\lib\net452\RestSharp.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,12 +61,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Request\AddRequest.cs" />
-    <Compile Include="Operacion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request\AddRequest.cs" />
+    <Compile Include="Request\DivRequest.cs" />
+    <Compile Include="Request\JournalRequest.cs" />
+    <Compile Include="Request\MultRequest.cs" />
+    <Compile Include="Request\SqrtRequest.cs" />
     <Compile Include="Request\SubRequest.cs" />
     <Compile Include="Response\AddResponse.cs" />
+    <Compile Include="Response\DivResponse.cs" />
+    <Compile Include="Response\JournalResponse.cs" />
+    <Compile Include="Response\MultiResponse.cs" />
+    <Compile Include="Response\SqrtResponse.cs" />
     <Compile Include="Response\SubResponse.cs" />
   </ItemGroup>
   <ItemGroup>

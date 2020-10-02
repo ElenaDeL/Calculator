@@ -88,3 +88,8 @@ C:\Users\elope_evicertia\Documents\Visual Studio 2015\Projects\Calculator\calcul
 C:\Users\elope_evicertia\Documents\Visual Studio 2015\Projects\Calculator\calculator.git\CalculatorService.Server\obj\Debug\CalculatorService.Server.csprojResolveAssemblyReference.cache
 C:\Users\elope_evicertia\Documents\Visual Studio 2015\Projects\Calculator\calculator.git\CalculatorService.Server\obj\Debug\CalculatorService.Server.dll
 C:\Users\elope_evicertia\Documents\Visual Studio 2015\Projects\Calculator\calculator.git\CalculatorService.Server\obj\Debug\CalculatorService.Server.pdb
+C:\Users\elope_evicertia\Documents\Visual Studio 2015\Projects\Calculator\calculator.git\CalculatorService.Server\bin\NLog.config
+C:\Users\elope_evicertia\Documents\Visual Studio 2015\Projects\Calculator\calculator.git\CalculatorService.Server\bin\NLog.dll
+C:\Users\elope_evicertia\Documents\Visual Studio 2015\Projects\Calculator\calculator.git\CalculatorService.Server\bin\NLog.xml
+C:\Users\elope_evicertia\Documents\Visual Studio 2015\Projects\Calculator\calculator.git\CalculatorService.Server\bin\RestSharp.dll
+C:\Users\elope_evicertia\Documents\Visual Studio 2015\Projects\Calculator\calculator.git\CalculatorService.Server\bin\RestSharp.xml

@@ -11,11 +11,11 @@ namespace CalculatorService.Server.servicios
 {
 	interface IServicioOperaciones
 	{
-		AddResponse Sum(AddRequest request);
-		SubResponse Diference(SubRequest request);
-		MultiResponse Product(MultRequest request);
-		DivResponse Div(DivRequest request);
-		SqrtResponse Sqrt(SqrtRequest request);
+		AddResponse Sum(AddRequest request, string trakingId);
+		SubResponse Diference(SubRequest request, string trakingId);
+		MultResponse Product(MultRequest request, string trakingId);
+		DivResponse Div(DivRequest request, string trakingId);
+		SqrtResponse Sqrt(SqrtRequest request, string trakingId);
 
 	}
 }

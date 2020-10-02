@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
 
-namespace Calculator.Response
+namespace CalulatorService.Client.Response
 {
-	class SubResponse
+	public class SubResponse
 	{
-		public int Minuend { get; set; }
-		public int Subtrahend { get; set; }
+		
+		public int Difference { get; set;}
 	}
 }

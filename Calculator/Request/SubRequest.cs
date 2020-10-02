@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
 
-namespace Calculator.Request
+namespace CalulatorService.Client.Request
 {
-	class SubRequest
+	public class SubRequest
 	{
 		public int Minuend { get; set; }
 		public int Subtrahend { get; set; }
