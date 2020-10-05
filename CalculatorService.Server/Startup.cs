@@ -16,7 +16,7 @@ namespace CalculatorService.Server
 		public static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
 		public void Configuration(IAppBuilder app)
 		{
-			ConfigureAuth(app);
+			//ConfigureAuth(app);
 			config();
 			logger.Info("This is the server");
 

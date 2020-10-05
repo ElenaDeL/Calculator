@@ -86,7 +86,7 @@ namespace Calculator
 						JournalRequest jour = new JournalRequest();
 						operationUrl = url + "Journal";
 						Console.WriteLine("dime id");
-						jour.id = id;
+						jour.id = Console.ReadLine();
 						SendRequestAndReturnResponseWithTraking("Journal", operationUrl, jour, id);
 						i = -1;
 						break;
