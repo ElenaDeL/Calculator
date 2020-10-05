@@ -279,3 +279,41 @@
 2020-10-02 17:54:01.9300|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|this is the service -> Sqrt
 2020-10-02 17:54:01.9300|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|OK
 2020-10-02 17:54:04.5750|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|this is the service ->Journal
+2020-10-05 09:19:12.7781|INFO|CalculatorService.Server.Startup|This is the server
+2020-10-05 09:19:12.7781|INFO|CalculatorService.Server.Startup|This is the server
+2020-10-05 09:19:13.8701|INFO|CalculatorService.Server.Controllers.CalculatorController|this is the controller -> Difference
+2020-10-05 09:19:13.8701|INFO|CalculatorService.Server.Controllers.CalculatorController|this is the controller -> Difference
+2020-10-05 09:19:13.9141|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|this is the service -> Difference
+2020-10-05 09:19:13.9141|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|OK
+2020-10-05 09:19:19.0763|INFO|CalculatorService.Server.Controllers.CalculatorController|this is the controller -> Sum
+2020-10-05 09:19:19.0763|INFO|CalculatorService.Server.Controllers.CalculatorController|this is the controller -> Sum
+2020-10-05 09:19:19.1003|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|this is the service ->Sum
+2020-10-05 09:19:19.1132|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|OK
+2020-10-05 09:19:22.6673|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|this is the service ->Journal
+2020-10-05 09:24:10.3076|INFO|CalculatorService.Server.Startup|This is the server
+2020-10-05 09:24:10.3076|INFO|CalculatorService.Server.Startup|This is the server
+2020-10-05 09:24:11.1216|INFO|CalculatorService.Server.Controllers.CalculatorController|this is the controller -> Sum
+2020-10-05 09:24:11.1216|INFO|CalculatorService.Server.Controllers.CalculatorController|this is the controller -> Sum
+2020-10-05 09:24:11.1466|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|this is the service ->Sum
+2020-10-05 09:24:11.1586|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|OK
+2020-10-05 09:24:15.3436|INFO|CalculatorService.Server.Controllers.CalculatorController|this is the controller -> Difference
+2020-10-05 09:24:15.3436|INFO|CalculatorService.Server.Controllers.CalculatorController|this is the controller -> Difference
+2020-10-05 09:24:15.3596|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|this is the service -> Difference
+2020-10-05 09:24:15.3676|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|OK
+2020-10-05 09:24:22.0882|INFO|CalculatorService.Server.Controllers.CalculatorController|this is the controller -> Mult
+2020-10-05 09:24:22.0882|INFO|CalculatorService.Server.Controllers.CalculatorController|this is the controller -> Mult
+2020-10-05 09:24:22.1062|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|this is the service -> Product
+2020-10-05 09:24:22.1172|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|OK
+2020-10-05 09:24:27.4657|INFO|CalculatorService.Server.Controllers.CalculatorController|this is the controller -> Div
+2020-10-05 09:24:27.4657|INFO|CalculatorService.Server.Controllers.CalculatorController|this is the controller -> Div
+2020-10-05 09:24:27.4837|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|this is the service -> Div
+2020-10-05 09:24:27.4937|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|OK
+2020-10-05 09:24:30.9819|TRACE|CalculatorService.Server.servicios.servicioOPeraciones|this is the service ->Journal
+2020-10-05 09:59:33.0696|INFO|CalculatorService.Server.Startup|This is the server
+2020-10-05 09:59:33.0696|INFO|CalculatorService.Server.Startup|This is the server
+2020-10-05 10:00:38.3344|INFO|CalculatorService.Server.Startup|This is the server
+2020-10-05 10:00:38.3344|INFO|CalculatorService.Server.Startup|This is the server
+2020-10-05 10:06:04.6753|INFO|CalculatorService.Server.Startup|This is the server
+2020-10-05 10:06:04.6753|INFO|CalculatorService.Server.Startup|This is the server
+2020-10-05 10:15:24.7187|INFO|CalculatorService.Server.Startup|This is the server
+2020-10-05 10:15:24.7187|INFO|CalculatorService.Server.Startup|This is the server

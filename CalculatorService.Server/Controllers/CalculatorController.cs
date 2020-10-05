@@ -17,8 +17,16 @@ namespace CalculatorService.Server.Controllers
     {
 		public static servicioOPeraciones servicio = new servicioOPeraciones();
 		public static ILogger log = LogManager.GetCurrentClassLogger();
+		public List<KeyValuePair<string, Operation>> JournalList = new List<KeyValuePair<string, Operation>>();
 
-		// POST: api/Default/Sum
+
+		[HttpGet]
+		public string Health()
+		{
+			return "healthy";
+		}
+
+		// POST: api/Calculator/Sum
 		[HttpPost]
 		public IHttpActionResult Sum(AddRequest request)
         {			
@@ -36,7 +44,7 @@ namespace CalculatorService.Server.Controllers
 
 		}
 
-		// POST: api/Default/Product
+		// POST: api/Calculator/Product
 		[HttpPost]
 		public IHttpActionResult Product(MultRequest request)
 		{
@@ -54,7 +62,7 @@ namespace CalculatorService.Server.Controllers
 
 		}
 
-		// POST: api/Default/Div
+		// POST: api/Calculator/Div
 		[HttpPost]
 		public IHttpActionResult Div(DivRequest request)
 		{
@@ -71,7 +79,7 @@ namespace CalculatorService.Server.Controllers
 			return Ok(res);
 		}
 
-		// POST: api/Default/Diference
+		// POST: api/Calculator/Diference
 		[HttpPost]
 		public IHttpActionResult Diference(SubRequest request)
 		{
@@ -88,7 +96,7 @@ namespace CalculatorService.Server.Controllers
 			return Ok(res);
 		}
 
-		// POST: api/Default/Sqrt
+		// POST: api/Calculator/Sqrt
 		[HttpPost]
 		public IHttpActionResult Sqrt(SqrtRequest request)
 		{
@@ -105,7 +113,7 @@ namespace CalculatorService.Server.Controllers
 
 		}
 
-		// POST: api/Default/Journal
+		// POST: api/Calculator/Journal
 		[HttpPost]
 		public IHttpActionResult Journal(JournalRequest request)
 		{

@@ -16,9 +16,14 @@ namespace CalculatorService.Server.servicios
 	//service : logic business . Implements Interface of methods
 	public class servicioOPeraciones : IServicioOperaciones
 	{
+
+	
 		public static ILogger log = LogManager.GetCurrentClassLogger();
 		public List<KeyValuePair<string, Operation>> JournalList = new List<KeyValuePair<string, Operation>>();
 
+		//Each method contains the business logic of the app
+
+		
 		public SubResponse Diference(SubRequest request, string trakingId)
 		{
 			log.Trace("this is the service -> Difference");
@@ -26,22 +31,25 @@ namespace CalculatorService.Server.servicios
 
 			try
 			{
+				//thi is the logic
 				sub.Difference = request.Minuend - request.Subtrahend;
 				log.Trace(HttpStatusCode.OK);
 
+				//if there is an id the operation is saved on journal
 				if (trakingId != null)
 				{
 					var op = new Operation()
 					{
 						name = "Difference",
 						date = DateTime.Now,
-						calculation = ""
-					};
+						calculation = string.Join("-", request.Minuend,request.Subtrahend)
+				};
 					JournalList.Add(new KeyValuePair<string, Operation>(trakingId, op));
 				}
 			}
 			catch (Exception e)
-			{
+			{	
+			//
 				log.Error(HttpStatusCode.InternalServerError);
 				log.Error("Error in the controller Difference " + e);
 				throw new Exception();
@@ -70,7 +78,7 @@ namespace CalculatorService.Server.servicios
 					{
 						name = "Div",
 						date = DateTime.Now,
-						calculation = ""
+						calculation = string.Join("/", request.Dividend, request.Divisor)
 					};
 					JournalList.Add(new KeyValuePair<string, Operation>(trakingId, op));
 				}
@@ -105,7 +113,7 @@ namespace CalculatorService.Server.servicios
 					{
 						name = "Product",
 						date = DateTime.Now,
-						calculation = ""
+						calculation = string.Join("*",request.Factors)
 					};
 					JournalList.Add(new KeyValuePair<string, Operation>(trakingId, op));
 				}
@@ -138,7 +146,7 @@ namespace CalculatorService.Server.servicios
 					{
 						name = "Sqrt",
 						date = DateTime.Now,
-						calculation = ""
+						calculation = string.Join("^",request.Number)
 					};
 					JournalList.Add(new KeyValuePair<string, Operation>(trakingId, op));
 				}
@@ -176,7 +184,7 @@ namespace CalculatorService.Server.servicios
 					{
 						name = "Sum",
 						date = DateTime.Now,
-						calculation = ""
+						calculation = string.Join("+", request.Addends)
 					};
 					JournalList.Add(new KeyValuePair<string, Operation>(trakingId, op));
 				}

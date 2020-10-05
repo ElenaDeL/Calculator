@@ -24,14 +24,13 @@ namespace Calculator
 				Console.WriteLine("dime tu id");
 				id = Console.ReadLine();
 			}
-		int i=-1;
+			int i=-1;
 		do
 			{
 				//type of operation 
 				Console.WriteLine("1. suma 2. resta 3.multi 4.dividir 5.raiz 6.journal 7.salir");
 
-				//read an option ->TODO: make it a method
-		
+				//read an option 
 				i = leer();
 
 				string operationUrl = url;
